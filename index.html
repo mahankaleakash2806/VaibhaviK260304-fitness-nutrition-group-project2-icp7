@@ -53,6 +53,7 @@ crossorigin="anonymous"></script>
     }
     .quote{
         max-width: 650px;
+        animation: quoteAnimation 8s infinite ease-in-out;
         margin: 0 0 ;
         padding: 30px 30px;
         float: left;
@@ -69,22 +70,47 @@ crossorigin="anonymous"></script>
     }
     .quote1{
         max-width: 650px;
+        animation: quoteAnimation 8s infinite ease-in-out;
         margin: 0 0 ;
         padding: 30px 30px;
         float: right;
-        font-size: 45px;
+        font-size: 40px;
         font-weight: bold;
         text-shadow: 10px 10px 10px black;
         background-color: aqua;
-        background: url("img/home/homepage.webp");
+        background: url("img/home/quote-img.jpg") center no-repeat;
+        -webkit-background-size: cover;
         background-repeat: no-repeat;
         color:  white;
         border-radius: 20px 20px;
         border: 5px  solid black;
         box-shadow: 7px 7px 20px black;
     }
+    @keyframes quoteAnimation {
+        0%   {opacity: 1;}
+        50%  {transform: translateY(-5%) rotate(5deg); opacity: 1;}
+    }
+    @keyframes quote1Animation{
+        0%   {opacity: 1;}
+        50%  {transform: translateY(-5%) rotate(5deg); opacity:1 ;}
+    }
     .quote2{
-
+        max-width: 650px;
+        animation: quote1Animation 8s infinite ease-in-out;
+        margin: 0 0 ;
+        padding: 30px 30px;
+        float: left;
+        font-size: 45px;
+        font-weight: bold;
+        text-shadow: 10px 10px 10px black;
+        background-color: aqua;
+        background: url("img/home/quote2.jpeg")center  no-repeat;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color:  white;
+        border-radius: 20px 20px;
+        border: 5px  solid black;
+        box-shadow: 7px 7px 20px black;
     }
 </style>
 <body>
@@ -111,7 +137,7 @@ crossorigin="anonymous"></script>
             <div >
             <figure class="text-center">
                 <blockquote class="blockquote">
-                    <p class="quote1">"It's Your Workout: Your Time.Your Body. Own It."</p>
+                    <p class="quote1">"Exercise is king. Nutrition is queen. Put them together and you’ve got a kingdom."</p>
                 </blockquote>
             </figure>
             </div>
@@ -120,7 +146,7 @@ crossorigin="anonymous"></script>
             <div>
             <figure class="text-center">
                 <blockquote class="blockquote">
-                    <p class="quote">"It's Your Workout: Your Time.Your Body. Own It."</p>
+                    <p class="quote2">"A little progress each day adds up to big results."</p>
                 </blockquote>
             </figure>
             </div>
