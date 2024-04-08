@@ -59,24 +59,15 @@ a {
 
 .gym-content-section {
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
     padding: 100px 0;
-    position: relative;
-    visibility: visible;
-    border:  1px solid black;
 }
 .side-content h6 {
     width: 100%;
-    display: block; 
-    font-weight: 800;
     font-size: 19px;
 }
-.side-content h2 {
+.side-content h1 {
     width: 100%;
-    display: block;
-    font-size: 50px;
-    font-weight: 500;
+    font-size: 40px;
     color: gold;
 }
 @media screen and (max-width: 1199px){
@@ -86,17 +77,11 @@ a {
 .custom-button {
     height: 70px;
     line-height: 70px;
-    display: inline-block;
     background: gold;
-    color: #000;
-    padding: 0 50px;
-    position: relative;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
     letter-spacing: 1px;
     overflow: hidden;
-    margin: 8px;
     box-shadow: 2px  4px 6px rgba(0,0,0,.2);
 
 }
@@ -118,32 +103,7 @@ a {
     margin: 0;
     position: relative;
 }
-.side-image .side-timetable {
-    width: 340px;
-    height: 300px;
-    display: flex;
-    font-size: medium;
-    flex-wrap: wrap;
-    position: absolute;
-    color: white;
-    left: -50px;
-    background: #0d0d0d;
-    padding: 40px;
-    margin: 0;
-    z-index: 1;
-}
-.side-image .side-timetable li {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 5px 0;
-    padding: 0;
-    list-style: none;
-}
-.side-image .side-timetable li span {
-    color: #fff;
-}
-.side-image .side-timetable li b {
+.side-timetable li b {
     font-weight: 400;
     margin-left: auto;
     color: gold;
