@@ -37,13 +37,37 @@
 </head>
 <body>
    <div class="container">
-    <img src="../img/fitness.png" alt="fitness_img" class="fitness"/>
+    <img src="../img/about-page/fitness.png" alt="fitness_img" class="fitness" id="slider"/>
      <div class="sub-container">
-            <p class="img_chnager" onclick="changer1()"> ○</p>
-            <p class="img_chnager"> ○</p>
-            <p class="img_chnager"> ○</p>
-            <p class="img_chnager"> ○</p>
+            <p class="img_chnager" onclick="slider1()"> ○</p>
+            <p class="img_chnager" onclick="slider2()"> ○</p>
+            <p class="img_chnager" onclick="slider3()"> ○</p>
+            <p class="img_chnager" onclick="slider4()"> ○</p>
     </div>
    </div>
+   <script>
+      function slider1(){
+    const slideChanger = document.getElementById("slider");
+
+    slideChanger.src = '../img/about-page/fitness.png' ;
+}
+function slider2(){
+    const slideChanger = document.getElementById("slider");
+
+    slideChanger.src = '../img/about-page/gym.png';
+}
+function slider3(){
+    const slideChanger = document.getElementById("slider");
+
+    slideChanger.src = '../img/about-page/nutrition.png';
+}
+function slider4(){
+    const slideChanger = document.getElementById("slider");
+
+    slideChanger.src ='../img/about-page/health.png';
+}
+
+
+   </script>
 </body>
 </html>
