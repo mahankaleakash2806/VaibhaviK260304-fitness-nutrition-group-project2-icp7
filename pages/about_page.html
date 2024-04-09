@@ -3,9 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About us</title>
+    <style>
+    .container{
+        width: 100%;
+        height: 500px;
+    }
+    .fitness{
+        width: 100%;
+        height: 500px;
+    }
+    .sub-container{
+        display: flex;
+        width: 100px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    .img_chnager{
+        font-size: 25px;
+        font-style: bold;
+        margin: 0;
+        cursor: pointer;
+    }
+    .img_chnager:hover{
+        color: rgb(81, 14, 205);
+        font-size: 27px;
+        font-weight: 700;
+        margin: 0;
+      
+        
+    }
+    </style>
 </head>
 <body>
-    <h1>ABOUT PAGE.</h1>
+   <div class="container">
+    <img src="../img/fitness.png" alt="fitness_img" class="fitness"/>
+     <div class="sub-container">
+            <p class="img_chnager" onclick="changer1()"> ○</p>
+            <p class="img_chnager"> ○</p>
+            <p class="img_chnager"> ○</p>
+            <p class="img_chnager"> ○</p>
+    </div>
+   </div>
 </body>
 </html>
