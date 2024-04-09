@@ -1,60 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
-    <title>Login_page</title>
+    <title>Sign in -Sign up</title>
     <style>
-        body{
+        .{
             margin: 0;
-            height: 100vh;
-            display: flex;
-            align-items:center;
-            justify-content: center;
-            font-size: 18px;
-
-
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "poppins",sans-serif;
+        }
+        body{
+            background: #dfe9f5;
         }
         .container{
-            width: 400px;
-            max-width: 400px;
-            margin: 18px;
-            padding: 32px;
-            box-shadow: 0 0 40px rgba(0,0,2,0);
-            background-color: #acacac;
-        }
-        .form_message{
-            text-align: center;
-            margin-bottom: 18px;
+          width: 330px;
+          padding: 2rem,1rem;
+          margin: 50px auto;
+          background-color: #fff;
+          border-radius: 10px;
+          text-align: center;  
+          box-shadow: 0 20px 35px rgba(0,0,0,0.1);
 
         }
-        .form_message-success{
-         color:var(--color-success);
+        .box{
+            margin: 15px;
+            padding: 5px;
+            border-radius: 50px;
         }
-        .form_message-error{
-         color:var(--color-error);
+        .h1{
+            font-size: 2rem;
+            color: #07001f;
+            margin-bottom: 1.2rem;
         }
-    </style>
+
+        .btn{
+            font-size: 1rem;
+            margin-top: 1.8rem;
+            margin-bottom: 7px;
+            padding: 10px 0;
+            outline: none;
+            border: none;
+            width: 90%;
+            color: #fff;
+            cursor: pointer;
+            background: rgb(17,107,143);
+
+        }
+        .btn:hover{
+            background: rgba(17,107,143,0.877);
+        }
+        input:focus{
+            border: 1px solid rgb(192,192,192);
+        }
+        .terms{
+            margin-top: 20px;
+        }
+        .member{
+            margin-bottom: 10px;
+        }
+ </style>
 </head>
 <body>
     <div class="container">
-        <form class="form" id="login">
-            <h1 class="form_title">Login</h1>
-            <div class="form_message form_message-error">INcorrect username\password</div>
-        <div class="form_input-group">
-            <input type="text" class="form_input" placeholder="Username or Email" >
-            <div class="form_input-error-message">This is an error message</div>
-        </div>
-        <div class="form_input-group">
-            <input type="password" class="form_input" placeholder="Password" >
-            <div class="form_input-error-message">This is an error message</div>
-        <button class="form_button" type="submit">Continue</button>
-            <p class="form_text">
-            <a href="#" class="form_link">Forgot your password?</a>
-        </p>
-        <p class="form_text">
-            <a href="./" class="form_link" id="linkCreateAccount">Don't have an account? Create account</a>
-        </p>
+    <h1 class="heading">Sign In</h1>
+        <form action="#">
+            <i class="fa-solid fa-user"></i>
+            <input type="text" class="box" placeholder="Username">
+            <br>
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" class="box" placeholder="Password">
+           </form>
+        <button class="btn" >Sign In</button>
+        <dev class="social-icon">
+            <a href="#" class="icon">
+                <i class="fa-facebook"></i>
+            </a>
+        </dev>
+
+        
+    </div>
+    <div class="container">
+        <h1>Sign Up</h1>
+        <form action="#">
+            <i class="fa-solid fa-user"></i>
+            <input type="text" class="box" placeholder="Username">
+            <br>
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" class="box" placeholder="Password">
+            <br>
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" class="box" placeholder="Re-Enter Password">
         </form>
+        <div class="terms">
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox">I agree to there
+                <a href="#">Terms & Conditions</a>
+            </label>
+        </div>
+        <button class="btn" >Sign Up</button>
+        <div class="member">
+            Already a member?<a href="./login_page.html">Login Here</a>
+        </div>
     </div>
    <script src="./js/login.js"></script> 
 </body>
