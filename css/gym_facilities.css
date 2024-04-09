@@ -226,3 +226,25 @@ a {
         font-size: small;
     }
 }
+
+@keyframes roll {
+    0% {
+        transform: rotate(0);
+    }
+    10%{
+        left: 150px;border-radius: 50%;
+        transition: all .55s ease-out;
+    }
+    100% {
+        transform: rotate(360deg);
+        border-radius: 90%;
+
+    }
+
+}
+
+.animation {
+    animation: roll 1s infinite;
+    transition: all .55s ease-out;
+
+}
