@@ -110,6 +110,7 @@ a {
 
 .side-content h6 {
     width: 100%;
+    color: #fff;
     font-size: 19px;
 }
 
@@ -117,6 +118,10 @@ a {
     width: 100%;
     font-size: 40px;
     color: gold;
+}
+.side-content p{
+    color: #fff;
+    opacity: 0.9;
 }
 
 @media screen and (max-width: 1199px) {
