@@ -19,3 +19,5 @@ function slider4(){
 
     slideChanger.src ='../img/about-page/health.png';
 }
+
+
