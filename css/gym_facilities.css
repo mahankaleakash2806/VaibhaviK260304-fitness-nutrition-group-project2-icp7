@@ -178,9 +178,20 @@ a {
     margin-left: auto;
     color: gold;
 }
+#daily-routine{
+    position: absolute;
+    
+}
+
 @media screen and (max-width: 768px){
     .gym-banner-container{
         height:  60vh;
+    }
+
+    #daily-routine{
+        position: relative;
+        margin: auto;
+
     }
 
 }
@@ -215,7 +226,11 @@ a {
     .side-content {
         padding: 1rem;
     }
-
+    #daily-routine{
+        position: relative;
+        margin: auto;
+       
+    }
     .gym-banner-container .container a {
         font-size: small;
         height: 30px;
@@ -246,5 +261,4 @@ a {
 .animation {
     animation: roll 1s infinite;
     transition: all .55s ease-out;
-
 }
