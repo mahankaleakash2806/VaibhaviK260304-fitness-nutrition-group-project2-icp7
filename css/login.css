@@ -1,23 +1,36 @@
-.social-icon{
-    font-size: 20px;
-}
-.{
+
+.body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "poppins",sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 body{
-    background-color:  #dcdde1;
+    background-image:url(./../img/gym.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    
+}
+.name{
+    margin-right: 120px;
+    margin-top: 20px;
+   
 }
 .container{
-  width: 330px;
+  width: 300px;
+  height: 450px;
   padding: 2rem,1rem;
   margin: 50px auto;
   background-color: #fff;
   border-radius: 10px;
   text-align: center;  
   box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+ 
 
 }
 .box{
@@ -28,7 +41,8 @@ body{
 .h1{
     font-size: 2rem;
     color: #07001f;
-    margin-bottom: 1.2rem;
+   
+   
 }
 
 .btn{
@@ -38,12 +52,24 @@ body{
     padding: 10px 0;
     outline: none;
     border: none;
-    width: 90%;
-    color: black;
-    cursor: pointer;
+   cursor: pointer;
     color: #fff;
+     background-color: #6c757d;
+     border-radius: 20px;
+     margin: 20px;
+     padding: 15px;
+     
     
 
+}
+.social-icon{
+    font-size: 20px;
+ 
+}
+.icon{
+    margin: 10px;
+    text-decoration: none;
+    margin-top: 20px;
 }
 .heading{
     color: gold;}
