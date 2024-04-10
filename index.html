@@ -79,16 +79,70 @@ integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEw
         border: 5px  solid black;
         box-shadow: 7px 7px 20px black;
     }
+    .card1{
+        margin: 10px 10px;
+        width: 40%;
+        height: auto;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    .card2{
+        margin: 10px 10px;
+        width: 40%;
+        height: auto;
+        justify-content: space-around;
+        align-items: start;
+        flex-direction: column;
+    }
+    .card3{
+        margin: 10px 10px;
+        width: 40%;
+        height: auto;
+        justify-content: space-around;
+        align-items: end;
+        flex-direction: column;
+    }
+    .btn-color{
+        background-color: gold;
+    }
 </style>
 <body>
     <div class="home_img_container">
-        <div class="container">
+        <nav class="navbar navbar-expand-lg text-bg-warning">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="./img/img1.png" height="70px" img-bg-warning ></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Guide</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Feedback</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">LOG IN</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+            <div class="container">
             <div class="row justify-content-center align-items-start">
                 <div class="col-md-6 left text-start mt-5">
                     <h1 style="font-family:'Times New Roman', Times, serif;" class="start">LET'S START THE FITNESS JOURNEY!</h1>
                 </div>
             </div>
-        </div>
+            </div>
     </div>
     <section class="home_content q">
         <div class="container">
@@ -118,11 +172,49 @@ integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEw
             </figure>
             </div>
             </div>
-    </section>
-
+    </section><hr/>
+    <div class="text-bg-warning">
+    <h1 class="text-center"><u><b>READY</b></u></h1>
+    <h1 class="text-center"><u><b>SET</b></u></h1>
+    <h1 class="text-center"><u><b>GO!!</b></u></h1>
+    <div class="container d-flex  flex-wrap justify-content-around">
+    <div class="card card1 text-bg-dark">
+        <img src="./img/home/for boys.jpg" class="card-img" alt="...">
+        <div class="card-img-overlay">
+          <p class="card-text"></p>
+          <h1 class="card-title">FOR BOYS</h1>
+          <a href="#" class="btn btn-color">Learn More</a>
+        </div>
+      </div>
+    <div class="card card2 text-bg-dark">
+        <img src="./img/home/for girls.avif" class="card-img" alt="...">
+        <div class="card-img-overlay">
+            <p class="card-text"></p>
+            <h1 class="card-title">FOR GIRLS</h1>
+            <a href="#" class="btn btn-color">Learn More</a>
+        </div>
+    </div>
+    <div class="card card3 text-bg-dark">
+        <img src="./img/home/yoga.jpg" class="card-img" alt="...">
+        <div class="card-img-overlay">
+            <p class="card-text"></p>
+            <h1 class="card-title">YOGA</h1>
+            <a href="#" class="btn btn-color">Learn More</a>
+        </div>
+    </div>
+    <div class="card card3 text-bg-dark">
+        <img src="./img/home/gym.webp" class="card-img" alt="...">
+        <div class="card-img-overlay">
+            <p class="card-text"></p>
+            <h1 class="card-title">GYM</h1>
+            <a href="#" class="btn btn-color">Learn More</a>
+        </div>
+    </div>
+    </div>
+</div><hr/>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 </body>
-</html>
+</html> 
