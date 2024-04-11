@@ -22,14 +22,16 @@ body{
    
 }
 .container{
-  width: 300px;
+  width: 320px;
   height: 450px;
-  padding: 2rem,1rem;
+  padding-top: 30px;
+  
   margin: 50px auto;
   background-color: #fff;
   border-radius: 10px;
   text-align: center;  
   box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+
  
 
 }
@@ -38,10 +40,11 @@ body{
     padding: 5px;
     border-radius: 50px;
 }
-.h1{
-    font-size: 2rem;
-    color: #07001f;
-   
+.container1{
+    font-size: 30px;
+   text-align: center; 
+   margin-top: 30px;
+   color: gold;
    
 }
 
@@ -71,8 +74,8 @@ body{
     text-decoration: none;
     margin-top: 20px;
 }
-.heading{
-    color: gold;}
+
+   
 input:focus{
     border: 1px solid rgb(192,192,192);
 }
